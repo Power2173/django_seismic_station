@@ -1,0 +1,22 @@
+{% extends "main/base.html" %}
+
+{% block content %}
+{% csrf_token %}
+{{ form.as_p }}
+<button onclick="myFunction()">Отобразить</button>
+
+<script>
+function myFunction() {
+    var e = document.getElementById("id_receiver_name");
+    var value = e.value;
+    var text = e.options[e.selectedIndex].text;
+    console.log("http://127.0.0.1:8000/list_sensor/" + e.selectedIndex + "/")
+    location.replace("http://127.0.0.1:8000/list_sensor/" + e.selectedIndex)
+    
+    
+}
+</script>
+
+
+{% endblock content %}
+

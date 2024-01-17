@@ -1,0 +1,58 @@
+body {
+    background: #c2b2db;
+}
+
+aside {
+    float:  left;
+    background: #814dd1;
+    width: 22%;
+    padding: .5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside img {
+    width: 60px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+aside h3 {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+aside ul {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+aside ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contacts{
+    font-size: 20px;
+    list-style: none;
+}
+
+.user{
+    margin-top: 750px;
+}
+
+.logo1 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+}

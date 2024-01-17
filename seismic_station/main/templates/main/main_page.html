@@ -1,0 +1,10 @@
+{% extends 'main/base.html' %}
+
+{% block title %}This is main page{% endblock %}
+{% block content %}
+    {% if graph %}
+        {{ graph|safe }}
+    {% else %}
+        <p>No graph was provided.</p>
+    {% endif %}
+{% endblock content %}
